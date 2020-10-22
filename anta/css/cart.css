@@ -1,0 +1,355 @@
+@charset "utf-8";
+body{
+    z-index: -999999;
+}
+*{
+    margin: 0;padding: 0;
+}
+
+.main{
+    width: 100%;
+    min-height: calc(100vh - 320px);
+    overflow: hidden;
+}
+.main-reg{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px 50px auto;
+}
+.main-size{
+    width: 400px;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+  /*   background-color: yellowgreen; */
+}
+.main-top{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    padding-top: 43px;
+    /* background-color: #e94c4c; */
+    overflow: hidden;
+}
+/* a有hover效果 */
+.main-top a{
+    width: 50%;
+    height: 35px;
+    color: #ffffff;
+    background: #000;
+    float: left;
+    text-decoration: none;
+    line-height: 35px;
+}
+.regbox{
+   /*  background-color: violet; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.regbox h5{
+    margin:10px 0 15px;
+}
+.user{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+}
+.pass{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+    margin-top: 15px;
+}
+.main-code{
+    margin-top: 15px;
+}
+.main-code input{
+    width: 50%;
+    padding: 10px 10px;
+    outline:none;
+}
+.main-checkbox{
+    margin: 15px 0;
+    font-size: 13px;
+}
+.main-checkbox a{
+    text-decoration: none;
+    color: #ccc;
+}
+.main-confirm{
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.main-confirm input{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.cart-table td{
+    padding: 20px 0;
+    border-bottom: 1px solid #c3c3c3;
+}
+.goods-item{
+    height: 140px;
+}
+.td-check{
+    width: 40px;
+}
+.td-check input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.td-check input + i {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #111;
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+}
+.td-img{
+    width: 150px;
+}
+.td-img img{
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.td-info{
+    width: 1010px;
+}
+.td-info p {
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+}
+.info-item{
+    width: 900px;
+    float: left;
+}
+.td-info-top{
+    width: 1010px;
+    height: 51px;
+}
+.td-info-top h5{
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+}
+.td-info-top p{
+    font-size: 13px;
+    line-height: 22px;
+    color: #777;
+}
+.td-info p span:first-child {
+    margin-left: 0;
+}
+.td-info p span {
+    margin: 0 7px;
+}
+.info-price{
+    width: 100px;
+    text-align: right; 
+    float: right;
+}
+.info-price span{
+    display: block;
+    color: #000;
+    font-size: 16px;
+}
+a.num-minus,a.num-plus{
+    display: inline-block;
+    height: 26px;
+    width: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: #999;
+}
+input.num-input {
+    outline: 0;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    margin-right: -1px;
+    height: 26px;
+    text-align: center;
+    width: 80px;
+    vertical-align: middle;
+}
+.f1{  
+    display: inline-block;
+    width: 900px;
+    float: left;
+}
+.fr{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    float: right;
+}
+.bottom{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+}
+.bottom-con{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.bottom-img{
+    width: 380px;
+    float: left;
+    padding-top: 35px;
+}
+.bottom-right{
+    width: 900px;
+    float: left;
+}
+.service-left{
+    width: 350px;
+    height: 100px;
+    padding-left: 100px;
+   /*  background-color: yellow; */
+    float: left;
+}
+.service-right{
+    width: 349px;
+    height: 100px;
+    padding-left: 100px;
+    /* background-color: yellow; */
+    border-left: 1px solid #ffffff;
+    float: left;
+}
+.service-right a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/qr-code.jpg)no-repeat center center ;
+}
+.service-left p{
+    display:block;
+    height: 50px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+.service-icon{
+    width: 30px;
+    height: 30px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/service-w.svg) no-repeat;
+}
+.bottom-middle{
+    margin: 15px 0 40px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 40px;
+}
+.bottom-middle span,.bottom-middle a{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    min-height: calc(100vh - 320px);
+    position: relative;
+    overflow: hidden;
+}
+.main-login{
+    width: 1200px;
+    border: 1px solid #e4e4e4;
+    padding: 15px 20px;
+    color: #999;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.main-login h4{
+    color: #f05124;
+    line-height: 30px;
+    font-weight: normal;
+}
+.main-login a{
+    color: #888;
+    display: inline-block;
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+}
+.cart-main{
+    width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.cart-title span:before {
+    content: '';
+    height: 4px;
+    width: 55px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.cart-title{
+    font-weight: normal;
+    height: 50px;
+    position: relative;
+}
+.cart-title span {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    color: #000;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.cart-main i{
+    font-style: normal;
+    color: #999;
+    margin-left: 10px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 35px;
+    font-size: 12px;
+}
+.cart-content{
+    margin: 30px 0;
+    /* background-color: yellow; */
+}
+.cart-content img{
+    display: block;
+    width: 80px;
+    margin: 0 auto 15px;
+}
+.cart-content p{
+    text-align: center;
+    line-height: 18px;
+    font-size: 13px;
+    color: #999;
+    padding: 3px 0px;
+}
+.cart-content p a{
+    text-decoration: none;
+    color: #999;
+}

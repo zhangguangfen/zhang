@@ -1,0 +1,223 @@
+@charset "utf-8";
+
+.main{
+    width: 100%;
+    height: 601px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+    overflow: hidden;
+}
+.main-reg{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px 50px auto;
+}
+.main-size{
+    width: 400px;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+  /*   background-color: yellowgreen; */
+}
+.main-top{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    padding-top: 43px;
+    /* background-color: #e94c4c; */
+    overflow: hidden;
+}
+/* a有hover效果 */
+.main-top a{
+    width: 50%;
+    height: 35px;
+    color: #ffffff;
+    background: #000;
+    float: left;
+    text-decoration: none;
+    line-height: 35px;
+}
+.regbox{
+   /*  background-color: violet; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.regbox h5{
+    margin:10px 0 15px;
+}
+.user{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+}
+.pass{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+    margin-top: 15px;
+}
+.main-code{
+    margin-top: 15px;
+}
+.main-code input{
+    width: 50%;
+    padding: 10px 10px;
+    outline:none;
+}
+.main-checkbox{
+    margin: 15px 0;
+    font-size: 13px;
+}
+.main-checkbox a{
+    text-decoration: none;
+    color: #ccc;
+}
+.main-confirm{
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.main-confirm input{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+}
+.bottom{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+}
+.bottom-con{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.bottom-img{
+    width: 380px;
+    float: left;
+    padding-top: 35px;
+}
+.bottom-right{
+    width: 900px;
+    float: left;
+}
+.service-left{
+    width: 350px;
+    height: 100px;
+    padding-left: 100px;
+   /*  background-color: yellow; */
+    float: left;
+}
+.service-right{
+    width: 349px;
+    height: 100px;
+    padding-left: 100px;
+    /* background-color: yellow; */
+    border-left: 1px solid #ffffff;
+    float: left;
+}
+.service-right a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/qr-code.jpg)no-repeat center center ;
+}
+.service-left p{
+    display:block;
+    height: 50px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+.service-icon{
+    width: 30px;
+    height: 30px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/service-w.svg) no-repeat;
+}
+.bottom-middle{
+    margin: 15px 0 40px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 40px;
+}
+.bottom-middle span,.bottom-middle a{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    height: 601px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+    overflow: hidden;
+}
+.main-login{
+    background-color: #ffffff;
+    width: 500px;
+    height: 450px;
+    margin: 50px 100px 50px auto;
+}
+::-webkit-input-placeholder{
+    text-indent: 5px;
+}
+.main-size{
+    width: 358px;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+  /*   background-color: yellowgreen; */
+}
+
+.main-login{
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.main-login input{
+    width: 350px;
+    padding: 10px 0;
+    color: #ffffff;
+    outline: none;
+    margin-top: 10px;
+}
+.login input{
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    outline: none;
+    margin-top: 20px;
+    background-color: #000;
+    border: none;
+}
+fieldset{
+    border: 0;
+}
+.field{
+    margin-top: 50px;
+    border-top: 1px solid #999;
+    padding-top: 10px;
+}
+.field legend{
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+.login-img{
+    padding-top: 10px;
+    text-align: center;
+}
+.login-img a{
+    margin: 0 12px;
+}
+.login-bottom{
+    padding-top: 30px;
+    text-align: center;
+    color: #e0e0e0;
+}
+.login-bottom a{
+    text-decoration: none;
+    padding: 0 9px;
+    color: #ccc;
+}

@@ -1,0 +1,200 @@
+@charset "utf-8";
+body{
+    z-index: -999999;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+*{
+    margin: 0;padding: 0;
+}
+#head{ 
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    color: #999;
+    line-height: 50px;
+}
+#head a{
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+#head a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.head-right{
+    position: absolute;
+    right: 0;
+    padding-right: 70px;
+}
+.head-login a{
+    height: 20px;
+    line-height: 20px;
+}
+.head-login{
+    padding-right: 30px;
+}  
+.head-login,.head-cart,.head-service,.head-EN{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+}
+.head-cart a,.head-service a{
+    display: block;
+    padding-right: 20px;
+}
+#nav{
+    width: 100%;
+    height: 99px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.nav-logo{
+    width: 125px;
+    height: 99px;
+    line-height: 99px;
+    margin-left: 100px;
+    float: left; 
+}
+.nav-logo a{  
+    margin-left: 36px;
+    
+}
+.nav-ul{
+    float: right;
+    height: 100px;
+    list-style: none;
+    margin-right:70px;
+    /* position: relative; */
+}
+.nav-ul>li {
+    float: left;
+    padding: 0 25px;
+    height: 99px;
+    line-height: 99px;
+    margin: 0 1px;
+    /* position: relative; */
+}
+.nav-ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #000;
+    line-height: 95px;
+}
+.nav-search a{
+    width: 46px;
+    height: 26px;
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/search-b.svg) no-repeat;
+    background-size: 18px 18px;
+    background-position: center center;
+}
+.nav-search{
+    margin-top: 0;
+    width: 212px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: middle;
+    display: inline-block;
+} 
+.nav-search input{
+    height: 26px;
+    border: none;
+    width: 160px;
+    outline: none;
+}
+.nav-ul li a:hover{
+    border-bottom: 5px solid #e94c4c;
+}
+.nav-ul li:nth-child(8) a:hover{
+    border-bottom: none;
+}
+.nav-ul li:hover .first-list{
+    display: block;
+}
+/* 第一个li的二级列表 */
+.first-list{
+    display: none;
+    width: 1920px;
+    position: absolute;
+    height: auto;
+    background: #fff;
+    z-index: 2;
+    overflow-y: auto;
+    text-align: center;
+   /*  padding: 30px 0 0; */
+    left: 50%;
+    top: 100px;
+    margin-left: -960px;
+    overflow-x: hidden;
+    /* background-color: yellowgreen; */
+    background-color: #ffffff;
+}
+.first{
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+.first-list1{
+    width: 180px;
+    height:400px;
+    /* background-color: violet; */
+    float: left;
+    border-right: 1px solid #eee;
+    /* margin-left: 200px; */
+}
+.nav-u-ul,.u7{
+    list-style: none;
+    clear: both;
+    float: left;
+}
+.nav-u-ul li,.u7 li{
+    clear: both;
+    width: 100px;
+    height: 20px;
+    padding: 5px 0;
+    text-align: left;
+}
+.nav-u-ul li a{
+    padding: 0;
+    /* height: 30px; */
+    font-size: 14px;
+    font-weight: normal;
+}
+.u7 li a{
+    margin-top: 30px;
+}
+.u7 li a span{
+    color: #999;
+    width: 100%;
+    overflow: hidden;; 
+    font-size: 14px;
+    font-weight: normal; 
+}
+.nav-u-ul li a:hover,.u7 li a:hover {
+    border-bottom: none;
+}
+.nav-u,.first-list7{
+    width: 150px;
+    height:400px;
+    /* background-color: violet; */
+    float: left;
+    margin-left: 20px;
+    border-right: 1px solid #ccc;
+}
+.first-list7{
+    border-right: none;
+}
+.shoe ,.cloth,.parts,.hot{
+    height: 30px;
+    text-align: left;
+    font-weight: 600;
+}

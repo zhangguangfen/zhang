@@ -1,0 +1,655 @@
+@charset "utf-8";
+body{
+    z-index: -999999;
+    overflow: scroll;
+    overflow-x:hidden;
+}
+*{
+    margin: 0;padding: 0;
+}
+.main{
+    width: 100%;
+    height: 601px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+    overflow: hidden;
+}
+.main-reg{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px 50px auto;
+}
+.main-size{
+    width: 400px;
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+  /*   background-color: yellowgreen; */
+}
+.main-top{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    padding-top: 43px;
+    /* background-color: #e94c4c; */
+    overflow: hidden;
+}
+/* a有hover效果 */
+.main-top a{
+    width: 50%;
+    height: 35px;
+    color: #ffffff;
+    background: #000;
+    float: left;
+    text-decoration: none;
+    line-height: 35px;
+}
+.regbox{
+   /*  background-color: violet; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.regbox h5{
+    margin:10px 0 15px;
+}
+.user{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+}
+.pass{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+    margin-top: 15px;
+}
+.main-code{
+    margin-top: 15px;
+}
+.main-code input{
+    width: 50%;
+    padding: 10px 10px;
+    outline:none;
+}
+.main-checkbox{
+    margin: 15px 0;
+    font-size: 13px;
+}
+.main-checkbox a{
+    text-decoration: none;
+    color: #ccc;
+}
+.main-confirm{
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.main-confirm input{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+}
+.bottom{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+}
+.bottom-con{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.bottom-img{
+    width: 380px;
+    float: left;
+    padding-top: 35px;
+}
+.bottom-right{
+    width: 900px;
+    float: left;
+}
+.service-left{
+    width: 350px;
+    height: 100px;
+    padding-left: 100px;
+   /*  background-color: yellow; */
+    float: left;
+}
+.service-right{
+    width: 349px;
+    height: 100px;
+    padding-left: 100px;
+    /* background-color: yellow; */
+    border-left: 1px solid #ffffff;
+    float: left;
+}
+.service-right a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background:url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/qr-code.jpg)no-repeat center center ;
+}
+.service-left p{
+    display:block;
+    height: 50px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+.service-icon{
+    width: 30px;
+    height: 30px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/service-w.svg) no-repeat;
+}
+.bottom-middle{
+    margin: 15px 0 40px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 40px;
+}
+.bottom-middle span,.bottom-middle a{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.img1{
+    width: 1920px;
+    height: 600px;
+    margin-left: -960px;
+    background: url('http://anta-cn-web.obs.myhwclouds.com/anta-cn-web/descente/2020/09/18/884b568107add8d1e8bca9273a0518b1.jpg') no-repeat;
+    position: relative;
+    left: 50%;
+    overflow: hidden;
+}
+
+.box {
+    width: 190px;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    margin-top: 200px;
+    background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/img/4a15d8883775742e3efbb850ae14def7.png) no-repeat center center;
+    /* background-color: #176069; */
+}
+
+.box h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+
+.box1 {
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box3,.box5,.box7,.box9 {
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #2f3430;
+}
+
+.box4,.box6,.box8 {
+    width: 12px;
+    height: 30px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.img2{
+    width: 1920px;
+    height: 613px;
+     background: url("https://img.fishfay.com/anta-cn-web/descente/2020/08/12/d5ce315ad5db59561c4de561c76a3600.jpg");
+     margin-left: -960px;
+     position: relative;
+     left: 50%;
+}
+.img2-con{
+    width: 1200px;
+    height: 613px;
+   /*  background-color: violet; */
+    margin: 0 auto;
+}
+.hoverup-item{
+    width: 25%;
+    height: 563px;
+    position: relative;
+    top: 50px;
+    float: left;
+}
+.hover-up{
+    display: none;
+    position: absolute;
+    bottom: -50px;
+}
+.img2-con span{
+    width: 250px;
+    height: 40px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    left: 45%;
+    top: 45%;
+    display: none;
+}
+.img3{
+    width: 1920px;
+    height: 600px;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/09/06/f22b1639c6b364267ce6717c02817ba4.jpg);
+    margin-left: -960px;
+    position: relative;
+    left: 50%;
+}
+.img3-shownow{
+    width: 7%;
+    height: 8%;
+    position: absolute;
+   /*  background-color: yellow; */
+    top: 258px;
+    right: 777px;
+}
+.img3-see{
+    width: 7%;
+    height: 8%;
+    position: absolute;
+   /*  background-color: yellow;  */
+    top: 258px;
+    right: 635px;
+}
+.img4{
+    width: 1920px;
+    height: 600px;
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/08/12/2ab2eb61d489558038d5f5a2b7fe4502.jpg);
+}
+.img4-shownow{
+    width: 8%;
+    height: 9%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 358px;
+    left: 537px;
+}
+.img4-see{
+    width: 8%;
+    height: 9%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 358px;
+    left: 704px;
+}
+.img5{
+    width: 1920px;
+    height: 600px;
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/09/09/a3ff036e60fe6a6ce56be085abd35721.jpg);
+}
+.img5-shownow{
+    width: 8%;
+    height: 9%;
+    /* background-color: yellow;  */
+    position: absolute;
+    top: 290px;
+    right: 555px;
+}
+.img5-see{
+    width: 8%;
+    height: 9%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 290px;
+    right: 390px;
+}
+.img6{
+    width: 1920px;
+    height: 600px;
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/08/12/156dd92401b0fec837e9ef2a4113eb2a.jpg);
+}
+.img6-shownow{
+    width: 8%;
+    height: 9%;
+   /*  background-color: yellow; */
+    position: absolute;
+    top: 475px;
+    left: 520px;
+}
+.img6-see{
+    width: 8%;
+    height: 9%;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 475px;
+    left: 685px;
+}
+.now-show1{
+    width: 1920px;
+    height: 669px;
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/08/12/c5405bfc784f5a867948279a406a1529.jpg);
+}
+.now-show1 a{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    /* background-color: yellow; */
+    bottom: 25px;
+}
+.now-show1 span{
+    width: 250px;
+    height: 40px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    left: 45%;
+    top: 45%;
+    display: none;
+}
+.now-show1 a:nth-child(1){
+    left: 356px;
+}
+.now-show1 a:nth-child(2){
+    left: 770px;
+}
+.now-show1 a:nth-child(3){
+    right: 584px;
+}
+.now-show2{
+    width: 1920px;
+    height: 751px;
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+    background: url(https://img.fishfay.com/anta-cn-web/descente/2020/08/20/db2a12a63d55be692710eacbfa00735a.jpg);
+}
+.now-show2 a{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+   /*  background-color: yellow; */
+    bottom: 137px;
+}
+.now-show2 a:nth-child(1){
+    left: 355px;
+}
+.now-show2 a:nth-child(2){
+    left: 770px;
+}
+.now-show2 span{
+    width: 250px;
+    height: 40px;
+    background-color: #333;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 40px;
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    left: 45%;
+    top: 35%;
+    display: none;
+}
+.move{
+    width: 100%;
+    padding: 100px 0;
+    position: relative;
+}
+.move-top{
+    width: 1280px;
+    text-align: center;
+   /*  background-color: yellow; */
+    margin: 0 auto;
+}
+.move-top h3{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 80px;
+}
+.move-top a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    padding: 0 25px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.move-middle{
+    margin-top: 40px;
+    width: 1280px;
+    padding: 50px 0px 50px; 
+    height: 358px;
+   /*  background-color: yellowgreen; */
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    margin: 0 auto;
+}
+.move-middle-con{
+    width: 20000px;
+    height: 305px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+.move-middle span{
+    display: block;
+    margin-top: 15px;
+}
+.move-arrow{
+    width: 1440px;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    position: relative;
+}
+.picture{
+    width: 295px;
+    margin-right: 20px;
+    text-align: center;
+    float: left;
+}
+.picture:nth-child(1){
+    margin-left: 20px;
+}
+.picture a{
+    text-decoration: none;
+    color: black;
+}
+.right-arrow{
+    width: 80px;
+    position: absolute;
+    right: -40px;
+    top:50%;
+}
+.left-arrow{
+    width: 80px;
+    position: absolute;
+    left: 10px;
+    top:50%;
+}
+.progress{
+    top: initial;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    height: 6px;
+    background: rgba(0,0,0,.25);
+    position: absolute;
+}
+
+.follow{
+    background-color: #d00;
+    text-align: center;
+}
+.follow-con{
+    padding: 50px 0;
+    text-align: center;
+}
+.follow-con h3{
+    height: 34px;
+    text-align: center;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacom/text-followus-w.svg) no-repeat center center;
+}
+.follow-con p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+    font-style: italic;
+}
+.follow-con ul{
+    list-style: none;
+    width: 230px;
+    height: 90px;
+    margin: 10px auto;
+    line-height: 90px;
+}
+.follow-con ul li{
+    width: 115px;
+    float: left;
+}
+.follow-con ul li a:nth-child(1){
+    float: left;
+    width: 85px;
+    height: 85px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/wechat-w.svg) no-repeat
+     ;
+}
+.follow-con ul li a:nth-child(2){
+    float: left;
+    width: 85px;
+    height: 85px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/weibo-w.svg) no-repeat;
+}
+.bottom{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.bottom-con{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.bottom-img{
+    width: 380px;
+    float: left;
+}
+.bottom-right{
+    width: 900px;
+    float: left;
+}
+.list1{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.list1 li{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #ffffff;
+    padding: 0 15px;
+    height: 16px;
+    font-size: 14px;
+}
+.list1 li:nth-child(1){
+    border-left: none;
+}
+.list1 li a{
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
+.bottom-middle{
+    float: left;
+    margin: 15px 0 40px;
+    float: left;
+    margin-left: 14px;
+}
+.bottom-middle span,.bottom-middle a{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.list2{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.list2 li{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #ffffff;
+    padding: 0 15px;
+    height: 16px;
+    font-size: 14px;
+}
+.list2 li:nth-child(1){
+    border-left: none;
+}
+.list2 li a{
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
+.fix{
+    position: fixed;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/web-cover.svg) no-repeat;
+    right: 50px;
+    bottom: 60px;
+    width: 60px;
+    height: 275px;
+    z-index: 9999;
+}
+.top{
+    width: 100%;
+    height: 33.33%;
+    /* background-color: yellow; */
+    float: left;
+    cursor: pointer;
+}
+.fix a{
+    width: 100%;
+    height: 33.33%;
+    /* background-color: yellow; */
+    float: left;
+}

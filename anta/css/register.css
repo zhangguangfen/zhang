@@ -1,0 +1,176 @@
+@charset "utf-8";
+.main{
+    width: 100%;
+    height: 601px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+    overflow: hidden;
+}
+.main-reg{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    margin: 50px 100px 50px auto;
+}
+.main-size{
+    width: 400px; 
+    padding-top: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+  /*   background-color: yellowgreen; */
+} 
+.main-top{
+    padding: 10px 0 10px 20px;
+    text-align: center;
+    padding-top: 43px;
+    /* background-color: #e94c4c; */
+    overflow: hidden;
+}
+/* a有hover效果 */
+.main-top  a{
+    width: 50%;
+    height: 35px;
+    float: left;
+    background-color: #fbfbfb;
+    text-decoration: none;
+    line-height: 35px;
+    color: #999;
+    position: relative;
+}
+.main-top a.active:after {
+    content: '';
+    position: absolute;
+    border-top: 7px solid #000;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -4px;
+}
+.main-top a.active{
+    background-color: #000;
+    color: #ffffff;
+}
+.regbox{
+   /*  background-color: violet; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.main-size form{
+    display: none;
+}
+.main-size form.form{
+    display: block;
+}
+.regbox h5{
+    margin:10px 0 15px;
+}
+.user{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+}
+.pass{
+    width: 340px;
+    padding: 10px 10px;
+    outline:none;
+    margin-top: 15px;
+}
+.main-code{
+    margin-top: 15px;
+    position: relative;
+}
+.main-code input{
+    width: 50%;
+    padding: 10px 10px;
+    outline:none;
+   /*  float: left; */
+}
+.main-code .code{ 
+    width: 40%;
+    height: 39px;
+    float: right;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 39px;
+}
+.main-code2{
+    margin-top: 15px;
+}
+.main-code2 input{
+    width: 50%;
+    padding: 10px 10px;
+    outline:none;
+   /*  float: left; */
+}
+.main-code2 .code2{
+    width: 40%;
+    height: 39px;
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+    text-align: center;
+    line-height: 39px;
+    letter-spacing: 2px;
+}
+.errorTip{
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: #d71921;
+    font-size: 12px;
+}
+.errorTip2{
+    display: inline-block;
+    margin-bottom: 5px;
+    line-height: 20px;
+    color: #d71921;
+    font-size: 12px;
+}
+/* .errorTip-code{
+    position: absolute;
+    background-color: yellowgreen;
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    top: 100px;
+} */
+.confirmMobile,.confirmEmail,.confirmPass{
+    display: none;
+}
+.confirmMobile i,.confirmEmail i,.confirmPass i{
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    background-color:#d71921;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 12px;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+} 
+.main-checkbox{
+    margin: 15px 0;
+    font-size: 13px;
+   /*  padding: 0 20px; */
+}
+.main-checkbox a{
+    text-decoration: none;
+    color: #ccc;
+}
+.main-confirm{
+    padding-bottom: 10px;
+    padding-top: 45px;
+}
+.main-confirm input{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    
+} 

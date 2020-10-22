@@ -1,0 +1,550 @@
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    min-height: calc(100vh - 320px);
+    position: relative;
+    overflow: hidden;
+}
+.main-top{
+    width: 1280px;
+    margin: 20px auto;
+ /*    background-color: violet; */
+}
+.top-left{
+    width: 740px;
+    padding-left: 30px;
+    float: left;
+    box-sizing: border-box;
+}
+.left-img{
+    width: 50px;
+    position: relative;
+    height: 645px;
+    float: left;
+}
+.left-img-top{
+    width: 50px;
+    height: 290px;
+}
+.left-img-top ul{
+    list-style: none;
+}
+.left-img-top ul li{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+    position: relative;
+}
+.left-img-top ul li.active{
+    border: 1px solid #666;
+}
+.left-img-top ul li img{
+    width: 48px;
+    height: 48px;
+}
+.left-img-bottom{
+    position: absolute;
+    width: 50px;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+.left-img-bottom a:nth-child(1),.left-img-bottom a:nth-child(2){
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    color: #999;
+    /* height: 50px; */
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 13px;
+    margin-top: 9px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/icons/share-cr-bw.svg); 
+    background-size: 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+.left-img-bottom a:nth-child(2){
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/antacn/icons/heart-cr-g.svg); 
+    background-size: 30px;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.right-img{
+    width: 645px;
+    margin-left: 13px;
+    height: 645px;
+    position: relative;
+    border: 1px solid #eee;
+    overflow: hidden;
+    float: left;
+}
+.right-img img{
+    width: 100%;
+}
+.focus-box{
+    /* 去掉边框之后小图的一半 */
+    width: 321.5px;
+    height: 321.5px;
+    background: #fff;
+    position: absolute;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    background-image: url(https://img.fishfay.com/shopgoods/1/172030103/172030103-3-1.jpg?x-image-process=image/resize,w_800,h_800);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    background-size: 645px;
+    display: none;
+    overflow: hidden;
+    
+}
+.bigImg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    /* background-color: yellow; */
+    display: none;
+    left:880px;
+    z-index: 999999;
+    overflow: hidden;
+}
+.bigImg img{
+   position: absolute;
+   width: 800px;
+   height: 800px;
+   left: 0;
+   top: 0;
+}
+
+.top-right{
+    width: 540px;
+    padding-left: 45px;
+    min-height: 645px;
+    float: left;
+    box-sizing: border-box;
+}
+.cloth-price>p{
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+}
+.cloth-price p:nth-child(4){
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 15px 0;
+}
+.cloth-price p span{
+    color: #999;
+    /* text-decoration: line-through; */
+    font-weight: normal;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.cloth-price h3{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: normal;
+}
+.cloth-price-bottom{
+    background: #f7f7f7;
+    padding: 20px;
+    display: flex;
+}
+.goods{
+    display: inline-block;
+    height: 22px;
+    line-height: 20px;
+    width: 44px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 2px;
+    margin-top: 2px;
+}
+.goods-content{
+    width: 395px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.goods-content a{
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 3px 0;
+    color: #000;
+    text-decoration: none;
+}
+.cloth-img>ul{
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    list-style: none;
+    margin-top: 25px;
+}
+i.icon-triangle-left {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 227px;
+    top: 14px;
+}
+i.icon-triangle-left:before {
+    border-left: 7px solid #666;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    top: 3px;
+    left: 7px;
+    position: absolute;
+    content: '';
+} 
+i.icon-triangle-right {
+    display: inline-block;
+    position: relative;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 5px;
+    top: 14px;
+}
+i.icon-triangle-right:before {
+    border-left: 7px solid #666;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    top: 3px;
+    left: 7px;
+    position: absolute;
+    content: '';
+}
+.cloth-img>ul li{
+    min-height: 80px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    position: relative;
+}
+.cloth-img p{
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.cloth-size-chart{
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.cloth-cell{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    /* display: flex; */
+    position: relative;
+}
+.goods-size{
+    width: 45%;
+    float: left;
+}
+.size{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    top: initial;
+    padding: 20px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 6px 1px rgba(156,156,156,.4);
+    display: none;
+}
+.size i{
+    display: block;
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: url(https://anta-cn-web.obs.myhwclouds.com/theme/images/icons/close-cr-bw.svg) no-repeat;
+    top: 7px;
+    right: 7px;
+    background-size: 100% auto;
+    background-position: center;
+}
+.size p{
+    width: 100%;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #666;
+    font-size: 14px;
+    font-weight: normal;
+}
+.size ul{
+    display: block;
+    list-style: none;
+}
+.size ul li{
+    cursor: pointer;
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #ccc;
+    line-height: 34px;
+    width: 50px;
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    margin: 5px 5px 5px 0;
+    position: relative;
+    float: left;
+}
+.cloth-cell>i.line{
+    display: block;
+    float: left;
+    width: 10%;
+    height: 30px;
+    position: relative;
+}
+.cloth-cell>i.line:before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #999;
+    left: 40%;
+    top: 0;
+}
+.cloth-cell .goods-size,.cloth-cell .goods-number,.cloth-cell .goods-youhui {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #999;
+    font-size: 13px;
+    padding-right: 30px;
+    cursor: default;
+}
+.cloth-cell>div>span{
+    text-align: left;
+}
+.cloth-cell>div>input{
+    border: 0;
+    height: 30px;
+    width: 100px;
+    padding: 0 10px;
+    line-height: 30px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+.cloth-cell>div>*{
+    display: inline-block;
+    vertical-align: middle;
+}
+.number{
+    width: 200px;
+    left: 55%;
+    top: initial;
+    position: absolute;
+    bottom: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 6px 1px rgba(156,156,156,.4);
+    display: none;
+}
+.number ul{
+    width: 180px;
+    height: 200px;
+    overflow-y: auto;
+    list-style: none;
+}
+.number ul li{
+    display: block;
+    border: 1px solid #eee;
+    height: 34px;
+    line-height: 32px;
+    width: 80%;
+    cursor: pointer;
+    margin: 5px auto;
+    text-align: center;
+}
+.active{
+    display: block;
+    border: 1px solid #666;
+}
+.cloth-chart{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.goods-btn>a{
+    height: 60px;
+    line-height: 58px;
+    display: block;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #666;
+    color: #000;
+    font-size: 17px;
+    margin-top: 10px;
+    background: #fff;
+}
+.goods-btn>a:nth-child(1){
+    float: left;
+}
+.goods-btn>a:nth-child(2){
+    float: right;
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+.detail-goods{
+    width: 1650px;
+    margin: 0 auto;
+}
+.detail-goods>div{
+    float: left;
+    font-size: 30px;
+    display: block;
+    width: 50%;
+    padding: 80px 0;
+    letter-spacing: 1px;
+    position: relative;
+    border-bottom: 1px solid #999;
+    text-align: right;
+    color: #000;
+    line-height: 200px;
+    float: left;
+}
+.left-detail p{
+    width: 825px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.left-detail p span{
+    position: relative;
+}
+.left-detail p span::before{
+    content: '';
+    height: 3px;
+    width: 50px;
+    background: #000;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.right-detail{
+    height: 40px;
+}
+.cloth-detail{
+    width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.tip{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgba(34, 32, 32, 0.781);
+    border-radius: 10px;
+    position: absolute;
+    line-height: 40px;
+    left: 49%;
+    z-index: 9999999;
+    top: 49%;
+    text-align: center;
+    font-size: 14px;
+    display: none;
+}
+
+.bottom-con{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.bottom-img{
+    width: 380px;
+    float: left;
+}
+.bottom-right{
+    width: 900px;
+    float: left;
+}
+.list1{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.list1 li{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #ffffff;
+    padding: 0 15px;
+    height: 16px;
+    font-size: 14px;
+}
+.list1 li:nth-child(1){
+    border-left: none;
+}
+.list1 li a{
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.bottom{
+    width: 100%;
+    background-color: #000;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.bottom-middle{
+    float: left;
+    margin: 15px 0 40px;
+    float: left;
+    margin-left: 14px;
+}
+.bottom-middle span,.bottom-middle a{
+    margin-right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.list2{
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+.list2 li{
+    display: inline-block;
+    float: left;
+    border-left: 1px solid #ffffff;
+    padding: 0 15px;
+    height: 16px;
+    font-size: 14px;
+}
+.list2 li:nth-child(1){
+    border-left: none;
+}
+.list2 li a{
+    text-decoration: none;
+    float: left;
+    color: #ffffff;
+    font-size: 14px;
+}
